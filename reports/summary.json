@@ -1,0 +1,20 @@
+{
+  "source_rows": 5935,
+  "clean_rows": 5935,
+  "cells_with_edge_whitespace_trimmed": 1127,
+  "budget_reported": 3930,
+  "budget_not_reported": 2005,
+  "total_reported_budget": 163842871072.0,
+  "completion_year_parsed": 5705,
+  "completion_to_be_determined": 229,
+  "completion_unclear": 1,
+  "status_not_reported": 22,
+  "region_not_assigned": 626,
+  "coordinates": {
+    "ok": 5499,
+    "multi-point": 19,
+    "missing": 417,
+    "invalid": 0,
+    "outside Ontario": 0
+  }
+}
