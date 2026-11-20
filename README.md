@@ -2,6 +2,15 @@
 
 Where are Ontario's published infrastructure projects, what stage are they at, and where is the reported budget concentrated? This project cleans the Ontario government's public project list, summarizes it in SQL, and presents it as a Tableau Public dashboard and a one-page briefing note.
 
+```mermaid
+flowchart LR
+    A[Ontario Builds<br/>project list CSV] --> B[Python cleaning<br/>build.py] --> C[SQL summaries<br/>reports/q1-q6.csv]
+    C --> D[Tableau Public<br/>dashboard]
+    C --> E[One-page<br/>briefing note]
+```
+
+![Two bar charts: Transit is 10% of projects but 72% of the reported budget; Communities is 38% of projects but 5% of the budget](docs/share_by_category.png)
+
 ## Findings
 
 - The 12 June 2026 file lists **5,935 projects** in 7 categories. **3,930** publish a budget, totalling **$163.8 billion**; **2,005 (34%)** publish none.
